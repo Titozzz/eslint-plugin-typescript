@@ -79,16 +79,6 @@ Then configure the rules you want to use under the rules section.
 
 ## Contributing
 
-If you're using vscode, we recommend you install both the Pretier and ESLint extensions, and turn on format on save.
-```CJSON
-{
-    // Format a file on save. A formatter must be available, the file must not be auto-saved, and editor must not be shutting down.
-    "[javascript]": {
-        "editor.formatOnSave": true
-    },
-}
-```
-
 For a PR to be merged, all tests must pass, the must be no lint errors, and the code must be formatted.
 - `yarn test`
 - `yarn lint`
